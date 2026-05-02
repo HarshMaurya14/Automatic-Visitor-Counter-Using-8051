@@ -2,38 +2,41 @@
 
 ## 📌 Overview
 
-This project is an embedded system that automatically counts the number of people entering and exiting a room using IR sensors and an 8051 microcontroller. The system updates the count in real-time on a 16x2 LCD display and controls a relay-based bulb depending on occupancy.
+This project is an embedded system designed to automatically count the number of people entering and exiting a room using IR sensors and an 8051 microcontroller. The system updates the count in real time on a 16×2 LCD display and controls a relay-based bulb depending on occupancy.
 
 ---
 
 ## ⚙️ Features
 
 * Bidirectional visitor counting (Entry & Exit)
-* Real-time display on LCD
+* Real-time display on 16×2 LCD
 * Automatic light control using relay
-* Interrupt-based sensor detection (INT0 & INT1)
+* Interrupt-based detection using INT0 & INT1
 * Prevents negative counting
+* Compact and cost-effective design
 
 ---
 
 ## 🧠 Working Principle
 
 * Two IR sensors are placed at entry and exit.
-* When entry sensor triggers → count increments.
-* When exit sensor triggers → count decrements.
-* If count > 0 → bulb ON
-* If count = 0 → bulb OFF
+* If entry sensor is triggered → count increments.
+* If exit sensor is triggered → count decrements.
+* The count is continuously displayed on LCD.
+* If count > 0 → bulb turns ON
+* If count = 0 → bulb turns OFF
 
 ---
 
 ## 🔌 Hardware Components
 
-* 8051 Microcontroller
+* 8051 Microcontroller (AT89C51)
 * IR Sensor Modules (2)
-* 16x2 LCD Display
+* 16×2 LCD Display
 * ULN2003 Driver IC
 * Relay Module
-* Resistors, Potentiometer
+* Potentiometer (for LCD contrast)
+* Resistors
 * 5V Power Supply
 
 ---
@@ -42,24 +45,56 @@ This project is an embedded system that automatically counts the number of peopl
 
 * Language: Embedded C
 * IDE: Keil µVision
-* Programmer: 8051 Programmer
+* Programming: 8051 Programmer
 
 ---
 
-## 📂 Code
+## 📂 Project Structure
 
-Main implementation is available in `main.c`
+```
+8051-Automatic-Visitor-Counter
+ ┣ main.c
+ ┣ README.md
+ ┣ report/
+ ┃ ┗ Mini_Project_Report.docx
+ ┣ images/
+ ┃ ┣ schematic.jpg
+ ┃ ┣ pcb_layout.jpg
+ ┃ ┗ hardware.jpg
+```
+
+---
+
+## 📸 Project Visuals
+
+### 🔌 Circuit Schematic
+
+![Schematic](images/schematic.jpg)
+
+---
+
+### 🧩 PCB Layout Design
+
+![PCB Layout](images/pcb_layout.jpg)
+
+---
+
+### 🛠️ Final Hardware Implementation
+
+![Hardware](images/hardware.jpg)
 
 ---
 
 ## 🚀 Future Improvements
 
-* IoT-based monitoring (WiFi / Cloud)
+* IoT-based remote monitoring
 * Mobile app integration
 * Occupancy analytics dashboard
+* Smart building automation integration
 
 ---
 
 ## 👨‍💻 Author
 
 Harsh Maurya
+
