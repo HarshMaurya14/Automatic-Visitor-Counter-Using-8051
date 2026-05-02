@@ -49,27 +49,11 @@ This project is an embedded system designed to automatically count the number of
 
 ---
 
-## 📂 Project Structure
-
-```
-8051-Automatic-Visitor-Counter
- ┣ main.c
- ┣ README.md
- ┣ report/
- ┃ ┗ Mini_Project_Report.docx
- ┣ images/
- ┃ ┣ schematic.jpg
- ┃ ┣ pcb_layout.jpg
- ┃ ┗ hardware.jpg
-```
-
----
-
 ## 📸 Project Visuals
 
 ### 🔌 Circuit Schematic
 
-![Schematic](images/schematic.jpeg)
+![Schematic](images/Schematic.jpeg)
 
 ---
 
