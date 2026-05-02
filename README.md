@@ -59,7 +59,7 @@ This project is an embedded system designed to automatically count the number of
 
 ### 🧩 PCB Layout Design
 
-![PCB Layout](images/pcb_layout.jpeg)
+Schematic.jpeg
 
 ---
 
