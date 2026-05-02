@@ -52,17 +52,17 @@ This project is an embedded system designed to automatically count the number of
 ## 📸 Project Visuals
 
 ### 🔌 Circuit Schematic
-![Schematic](images/Schematic.jpeg)
+![Schematic](Schematic.jpeg)
 
 ---
 
 ### 🧩 PCB Layout Design
-![PCB Layout](images/PCB%20layout%20(2).jpeg)
+![PCB Layout](PCB%20layout%20(2).jpeg)
 
 ---
 
 ### 🛠️ Final Hardware Implementation
-![Hardware](images/PCB%20with%20components.jpeg)
+![Hardware](PCB%20with%20components.jpeg)
 
 ---
 
