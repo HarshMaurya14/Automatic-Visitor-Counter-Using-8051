@@ -53,7 +53,7 @@ This project is an embedded system designed to automatically count the number of
 
 ### 🔌 Circuit Schematic
 
-![Schematic](images/Schematic.jpeg)
+**![Schematic](images/Schematic.jpeg)**
 
 ---
 
